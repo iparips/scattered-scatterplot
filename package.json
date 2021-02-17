@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "These code examples accompany the video course “[An Introduction to d3.js: From Scattered to Scatterplot](http://shop.oreilly.com/product/110000632.do)”.",
   "main": "d3.js",
+  "type": "module",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/iparips/scattered-scatterplot#readme",
   "dependencies": {
-    "d3": "^6.5.0"
+    "d3": "^6.5.0",
+    "jest": "^26.6.3"
   }
 }

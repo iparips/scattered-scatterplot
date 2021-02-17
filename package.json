@@ -1,0 +1,25 @@
+{
+  "name": "scattered-scatterplot",
+  "version": "1.0.0",
+  "description": "These code examples accompany the video course “[An Introduction to d3.js: From Scattered to Scatterplot](http://shop.oreilly.com/product/110000632.do)”.",
+  "main": "d3.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iparips/scattered-scatterplot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iparips/scattered-scatterplot/issues"
+  },
+  "homepage": "https://github.com/iparips/scattered-scatterplot#readme",
+  "dependencies": {
+    "d3": "^6.5.0"
+  }
+}
